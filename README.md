@@ -1,3 +1,13 @@
+# Change Log
+
+Bug fixes and improvements:
+
+* Make EasyMotion's behaviours, such as `linewise`, `inclusive`, `exclusive`, more consistent with Vim's default
+* Visual mode selection works correctly now
+* Some regex match bugs fixed. For example EasyMotion's `w` and `b` now match start of non-`iskeyword` word
+
+Taking above changes into consideration, use EasyMotion to completely replace Vim's default motions is more pleasing now, as it being more consistent with Vim now
+
 # Introduction
 
 EasyMotion provides a much simpler way to use some motions in vim. It
