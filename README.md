@@ -2,9 +2,16 @@
 
 Bug fixes and improvements:
 
-* Make EasyMotion's behaviours, such as `linewise`, `inclusive`, `exclusive`, more consistent with Vim's default
-* Visual mode selection works correctly now
-* Some regex match bugs fixed. For example EasyMotion's `w` and `b` now match start of non-`iskeyword` word
+Submitted as [PR#75][]
+
+1. Make EasyMotion's behaviours, such as `linewise`, `inclusive`, `exclusive`, more consistent with Vim's default
+2. Visual mode selection works correctly now.
+3. Some regex match bugs fixed. For example EasyMotion's `w` and `b` now match start of non-`iskeyword` word. 
+
+[haya14busa][] reimplemented `exclusive` and `inclusive` and included #2  after he took over the project, as mentioned in [PR#75][]. Fix #3 is resubmitted as [PR#101](https://github.com/Lokaltog/vim-easymotion/pull/101)
+
+[PR#75]: https://github.com/Lokaltog/vim-easymotion/pull/75
+[haya14busa]: https://github.com/haya14busa
 
 Taking above changes into consideration, use EasyMotion to completely replace Vim's default motions is more pleasing now, as it being more consistent with Vim now
 
